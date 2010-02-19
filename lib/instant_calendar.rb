@@ -6,7 +6,8 @@ module InstantCalendar
 									 :year => options[:year] || Time.now.year,
 									 :highlight_today => options[:highlight_today] || false,
 									 :dates => options[:dates]	|| [],
-									 :highlight_dates => options[:highlight_dates]	|| []
+									 :highlight_dates => options[:highlight_dates]	|| [],
+                   :navigation => options[:navigation] || false
                   }
     end
 
